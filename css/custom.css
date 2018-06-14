@@ -1,0 +1,161 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.9rem;
+    text-decoration: underline #ff5722;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #303841;
+}
+
+a:visited {
+    color: #303841;
+}
+
+a:hover {
+    color: #303841;
+    text-decoration: none;
+}
+
+#home,
+#contact {
+    height: 100vh;
+}
+
+#home,
+#about,
+#projects,
+#contact {
+    border-bottom: 5px solid #ff5722;
+}
+
+#about {
+    background: linear-gradient(175deg, rgba(238, 238, 238, 0), rgba(0, 173, 181, 1));
+}
+
+#about p {
+    color: #303841;
+}
+
+#projects {
+    background: #eee;
+}
+
+#contact {
+    color: #303841;
+    background: url("../images/triangle-gradient.png") no-repeat center / cover;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid #ff5722;
+}
+
+.jumbotron {
+    color: #eee;
+    background: url("../images/charles-deluvio-unsplash.jpg") no-repeat center / cover;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #ff5722;
+    transition: all .5s;
+}
+
+.profile-image:hover {
+    transform: scale(1.25) rotate(360deg);
+}
+
+.enlarge {
+    transition: all .2s ease-in-out;
+}
+
+.enlarge:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    border: 1px solid #888888;
+    box-shadow: 3px 6px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-depth:hover {
+    box-shadow: 4px 8px 15px 0 rgba(0, 0, 0, 0.6);
+}
+
+.card-text {
+    color: #303841;
+}
+
+.btn {
+    background-color: #00adb5;
+}
+
+.fa {
+    color: #eee;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 3.75rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    #contact a {
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    #about p {
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+    #contact a {
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #about p {
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+}
