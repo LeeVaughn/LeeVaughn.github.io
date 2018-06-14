@@ -4,12 +4,12 @@ This repository houses my personal portfolio page.
 
 ## Motivation
 
-To highlight my skill as a front end developer and serve as a resource to help me secure work either as a freelance or as an in-house developer.
+To highlight my skill as a full-stack JavaScript developer and serve as a resource to help me secure work either as a freelance or as an in-house developer.
 
 ## Future Updates
 
-- Add new projects as needed
-- Move the site from GitHub pages to a custom domain and server.
+* Add new projects as needed
+* Move the site from GitHub pages to a custom domain and server.
 
 ## Built With
 
@@ -17,8 +17,8 @@ To highlight my skill as a front end developer and serve as a resource to help m
 
 ## Links
 
-* Project homepage: https://leevaughn.github.io/dlv-portfolio/
-* Repository: https://github.com/LeeVaughn/dlv-portfolio
+* [Project homepage](https://leevaughn.github.io/)
+* [Repository](https://github.com/LeeVaughn/dlv-portfolio)
 
 ## Author
 
